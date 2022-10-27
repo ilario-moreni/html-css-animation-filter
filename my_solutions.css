@@ -112,13 +112,15 @@
 
 /* esercizio 11 */
 
-.ex-11-icon{
-    animation: rotation 1s;
+.ex-11-icon:hover{
+    animation: partialRotation 2s;
     animation-iteration-count:infinite;
 }
 
 
-@keyframes partialRotation:hover{
+@keyframes partialRotation{
     from{transform: rotate(0deg);}
-    to{transform: rotate(360deg);}
+    to{transform: rotate(270deg);}  
 }
+
+/* esercizio 12 */
