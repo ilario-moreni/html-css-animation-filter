@@ -73,3 +73,16 @@
     width: 700px;
 }
 
+/* esercizio 8 */
+
+.ex-8-img{
+    transition: filter 2s, border-radius 2s, border 2s;
+}
+
+.ex-8-img:hover{
+    border: brown solid 10px;
+    filter: blur(2px);
+    border-radius: 30px;
+}
+
+
