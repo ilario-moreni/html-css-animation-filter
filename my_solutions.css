@@ -124,3 +124,35 @@
 }
 
 /* esercizio 12 */
+
+.ex-12-top-white{
+    animation: borderMoveTop 2s infinite;
+}
+
+@keyframes borderMoveTop{
+    0%{
+        left: 65%;
+    }
+    50%{
+        left: 1%;
+    }
+    100%{
+        left: 65%;
+    }
+}
+
+.ex-12-bottom-white{
+    animation: borderMoveBottom 2s infinite;
+}
+
+@keyframes borderMoveBottom{
+    0%{
+        left: 1%;
+    }
+    50%{
+        left: 65%;
+    }
+    100%{
+        left: 1%;
+    }
+}
