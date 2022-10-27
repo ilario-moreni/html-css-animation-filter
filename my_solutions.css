@@ -85,4 +85,16 @@
     border-radius: 30px;
 }
 
+/* esercizio 9 */
+
+.ex-9-img{
+    transition: filter 2s, border-radius 2s, border 2s, transform 2s;
+}
+
+.ex-9-img:hover{
+    transform: scale(0.5);
+    border: brown solid 10px;
+    filter: saturate(150%);
+    border-radius: 30px;
+}
 
